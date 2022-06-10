@@ -1,0 +1,66 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/diego/Projects/STM32duino-bootloader'
+ 
+mkdir -p build/stm32_lib
+mkdir -p build/usb_lib
+echo --
+echo "-------- begin --------"
+echo  build/usb.o  build/usb_callbacks.o  build/usb_descriptor.o  build/main.o  build/hardware.o  build/dfu.o  build/usb_lib/usb_regs.o  build/usb_lib/usb_int.o  build/usb_lib/usb_init.o  build/usb_lib/usb_core.o  build/usb_lib/usb_mem.o
+arm-none-eabi-gcc --version
+echo
+echo Compiling C: usb.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/usb.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/usb.o.d usb.c -o build/usb.o
+echo
+echo Compiling C: usb_callbacks.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/usb_callbacks.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/usb_callbacks.o.d usb_callbacks.c -o build/usb_callbacks.o
+echo
+echo Compiling C: usb_descriptor.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/usb_descriptor.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/usb_descriptor.o.d usb_descriptor.c -o build/usb_descriptor.o
+echo
+echo Compiling C: main.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/main.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/main.o.d main.c -o build/main.o
+echo
+echo Compiling C: hardware.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/hardware.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/hardware.o.d hardware.c -o build/hardware.o
+echo
+echo Compiling C: dfu.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/dfu.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/dfu.o.d dfu.c -o build/dfu.o
+echo
+echo Compiling C: usb_lib/usb_regs.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/usb_lib/usb_regs.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/usb_regs.o.d usb_lib/usb_regs.c -o build/usb_lib/usb_regs.o
+echo
+echo Compiling C: usb_lib/usb_int.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/usb_lib/usb_int.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/usb_int.o.d usb_lib/usb_int.c -o build/usb_lib/usb_int.o
+echo
+echo Compiling C: usb_lib/usb_init.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/usb_lib/usb_init.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/usb_init.o.d usb_lib/usb_init.c -o build/usb_lib/usb_init.o
+echo
+echo Compiling C: usb_lib/usb_core.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/usb_lib/usb_core.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/usb_core.o.d usb_lib/usb_core.c -o build/usb_lib/usb_core.o
+echo
+echo Compiling C: usb_lib/usb_mem.c
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/usb_lib/usb_mem.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/usb_mem.o.d usb_lib/usb_mem.c -o build/usb_lib/usb_mem.o
+echo
+echo Assembling: stm32_lib/c_only_startup.s
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I. -x assembler-with-cpp -Wa,-adhlns=build/stm32_lib/c_only_startup.lst stm32_lib/c_only_startup.s -o build/stm32_lib/c_only_startup.o
+echo
+echo Assembling: stm32_lib/cortexm3_macro.s
+arm-none-eabi-gcc -c -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I. -x assembler-with-cpp -Wa,-adhlns=build/stm32_lib/cortexm3_macro.lst stm32_lib/cortexm3_macro.s -o build/stm32_lib/cortexm3_macro.o
+echo
+echo Linking: build/maple_boot.elf
+arm-none-eabi-gcc -mthumb -g -mcpu=cortex-m3 -mthumb-interwork -I.  -Os -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=build/build/usb.lst -I./stm32_lib -I./usb_lib  -MD -MP -MF .dep/maple_boot.elf.d  build/stm32_lib/c_only_startup.o  build/stm32_lib/cortexm3_macro.o  build/usb.o  build/usb_callbacks.o  build/usb_descriptor.o  build/main.o  build/hardware.o  build/dfu.o  build/usb_lib/usb_regs.o  build/usb_lib/usb_int.o  build/usb_lib/usb_init.o  build/usb_lib/usb_core.o  build/usb_lib/usb_mem.o --output build/maple_boot.elf -nostartfiles -Wl,-Map=build/maple_boot.map,--cref,--gc-sections -lc -lgcc
+echo
+echo Creating load file for Flash: build/maple_boot.bin
+arm-none-eabi-objcopy -O binary build/maple_boot.elf build/maple_boot.bin
+echo
+echo Creating Extended Listing: build/maple_boot.lss
+arm-none-eabi-objdump -h -S -D build/maple_boot.elf > build/maple_boot.lss
+echo
+echo Creating Symbol Table: build/maple_boot.sym
+arm-none-eabi-nm -n build/maple_boot.elf > build/maple_boot.sym
+if [ -f build/maple_boot.elf ]; then echo; echo Size after:; arm-none-eabi-size -A build/maple_boot.elf; echo; fi
+echo Errors: none
+echo --------  end  --------
+echo
+make: Leaving directory '/home/diego/Projects/STM32duino-bootloader'
+ 

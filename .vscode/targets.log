@@ -1,0 +1,1846 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun 10 16:10:37 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 71)
+MSG_CLEANING = Cleaning project:
+# makefile (from 'Makefile', line 59)
+MSG_ERRORS_NONE = Errors: none
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 96)
+SRC = $(SRCS) $(STM32SRCS) $(STM32USBSRCS)
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# makefile (from 'Makefile', line 10)
+THUMB_IW = -mthumb-interwork
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# makefile (from 'Makefile', line 48)
+AR = $(TCHAIN)-ar
+# environment
+SNAP_INSTANCE_KEY = 
+# makefile (from 'Makefile', line 101)
+COBJ = $(patsubst %, $(BUILDDIR)/%,$(_COBJ))
+# environment
+STARSHIP_SESSION_KEY = 2250469474939234
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-55eca5be-4400-4a59-ad27-09f243cfdb12.sock
+# environment
+LC_NAME = de_DE.UTF-8
+# environment
+LC_NUMERIC = de_DE.UTF-8
+# environment
+VSCODE_CWD = /home/diego/Projects/STM32duino-bootloader
+# environment
+WINDOWID = 8388618
+# makefile (from 'Makefile', line 106)
+_LST = $(ASRC:.s=.lst) $(SRC:.c=.lst)
+# makefile (from 'Makefile', line 9)
+THUMB = -mthumb
+# environment
+LC_ADDRESS = de_DE.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/diego/Projects/STM32duino-bootloader
+# makefile (from 'Makefile', line 60)
+MSG_BEGIN = "-------- begin --------"
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/diego
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/diego/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+KIGITHUB = https://github.com/KiCad
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.JL1ZM1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile (from 'Makefile', line 5)
+SUBMDL = stm32f103
+# environment
+GNOME_TERMINAL_SERVICE = :1.5982
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 16)
+ST_LIB = stm32_lib
+# environment
+KICAD_PATH = /usr/share/kicad
+# makefile
+CURDIR := /home/diego/Projects/STM32duino-bootloader
+# makefile (from 'Makefile', line 62)
+MSG_END = --------  end  --------
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'Makefile', line 93)
+SRCS = usb.c usb_callbacks.c usb_descriptor.c main.c hardware.c dfu.c
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 81)
+ASRC = $(ST_LIB)/c_only_startup.s $(ST_LIB)/cortexm3_macro.s
+# makefile (from 'Makefile', line 66)
+MSG_EXTENDED_LISTING = Creating Extended Listing:
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from '.dep/usb_regs.o.d', line 1)
+MAKEFILE_LIST := Makefile .dep/dfu.o.d .dep/hardware.o.d .dep/main.o.d .dep/usb.o.d .dep/usb_callbacks.o.d .dep/usb_core.o.d .dep/usb_descriptor.o.d .dep/usb_init.o.d .dep/usb_int.o.d .dep/usb_mem.o.d .dep/usb_regs.o.d
+# makefile (from 'Makefile', line 37)
+ASFLAGS = -Wa,-adhlns=$(BUILDDIR)/$(<:.s=.lst)
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 197461
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/netstar:@/tmp/.ICE-unix/1990,unix/netstar:/tmp/.ICE-unix/1990
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 99)
+_COBJ = $(SRC:.c=.o)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Makefile', line 17)
+ST_USB = usb_lib
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 69)
+MSG_COMPILING = Compiling C:
+ 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile (from 'Makefile', line 45)
+SHELL = sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/b790f040_729a_4efb_8bf1_a65a6aed9fe8
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 50)
+OBJDUMP = $(TCHAIN)-objdump
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = 7bQ_ZVPOdohtlAipBMkqq3Y6vH7G1yUnlnGzXjxCfIqp-82zxeI6
+# environment
+PATH = /opt/renesas/gcc_rl78//bin:/opt/renesas/llvm_rl78/bin:/home/diego/.cargo/bin:/home/diego/.local/bin:/home/diego/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/diego/.local/share/gem/ruby/2.7.0/bin:/opt/arm/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin
+# makefile (from 'Makefile', line 67)
+MSG_SYMBOL_TABLE = Creating Symbol Table:
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 91)
+STM32USBSRCS = $(patsubst %, $(ST_USB)/%,$(_STM32USBSRCS))
+# environment
+LC_MONETARY = de_DE.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/diego/snap/code/common
+# environment
+LC_TIME = de_DE.UTF-8
+# environment
+SNAP = /snap/code/97
+# makefile (from 'Makefile', line 83)
+STM32SRCS = 
+# makefile (from 'Makefile', line 47)
+CPP = $(TCHAIN)-g++
+# environment
+SNAP_REVISION = 97
+# environment
+SNAP_REAL_HOME = /home/diego
+# makefile (from 'Makefile', line 61)
+MSG_ETAGS = Created TAGS File
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = diego
+# makefile (from 'Makefile', line 51)
+SIZE = $(TCHAIN)-size
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+LC_TELEPHONE = de_DE.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 111)
+ELFSIZE = $(SIZE) -A $(TARGET).elf
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from 'Makefile', line 100)
+_AOBJ = $(ASRC:.s=.o)
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 24)
+INCDIRS = ./$(ST_LIB) ./$(ST_USB)
+# environment
+LOGNAME = diego
+# makefile (from 'Makefile', line 20)
+OPT = s
+# makefile (from 'Makefile', line 8)
+TCHAIN = arm-none-eabi
+# makefile (from 'Makefile', line 68)
+MSG_LINKING = Linking:
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 2009
+# environment
+DISPLAY = :0
+# environment
+USER = diego
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 1
+# environment
+DISABLE_WAYLAND = 1
+# makefile (from 'Makefile', line 55)
+COPY = cp
+# environment
+SNAP_DATA = /var/snap/code/97
+# makefile (from 'Makefile', line 85)
+_STM32USBSRCS = usb_regs.c usb_int.c usb_init.c usb_core.c usb_mem.c
+# environment
+SNAP_CONTEXT = 7bQ_ZVPOdohtlAipBMkqq3Y6vH7G1yUnlnGzXjxCfIqp-82zxeI6
+# makefile (from 'Makefile', line 40)
+LDFLAGS = -nostartfiles -Wl,-Map=$(TARGET).map,--cref,--gc-sections -lc -lgcc
+# makefile (from 'Makefile', line 4)
+MCU = cortex-m3
+# environment
+LC_MEASUREMENT = de_DE.UTF-8
+# environment
+STARSHIP_SHELL = bash
+# makefile (from 'Makefile', line 102)
+AOBJ = $(patsubst %, $(BUILDDIR)/%,$(_AOBJ))
+# environment
+LC_PAPER = de_DE.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 34)
+CFLAGS = $(DEBUG) -O$(OPT) -ffunction-sections -fdata-sections -Wall -Wimplicit -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused -Wa,-adhlns=$(BUILDDIR)/$(subst $(suffix $<),.lst,$<) $(patsubst %,-I%,$(INCDIRS))
+# makefile (from 'Makefile', line 54)
+REMOVEDIR = rm -r
+# environment
+COLORTERM = truecolor
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/diego/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 63)
+MSG_SIZE_BEFORE = Size before:
+# environment
+HOME = /home/diego
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 53)
+REMOVE = rm -f
+# environment
+ZEPHYR_BASE = /home/diego/Projects/zephyrproject/zephyr
+# makefile (from 'Makefile', line 110)
+HEXSIZE = $(SIZE) --target=binary $(TARGET).hex
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-37082df1-1.67.2-main.sock
+# environment
+TERM = xterm-256color
+# environment
+SNAP_NAME = code
+# makefile (from 'Makefile', line 77)
+ALL_ASFLAGS = -g -mcpu=$(MCU) $(THUMB_IW) -I. -x assembler-with-cpp $(ASFLAGS)
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# makefile (from 'Makefile', line 52)
+NM = $(TCHAIN)-nm
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 107)
+LST = $(patsubst %, $(BUILDDIR)/%,$(_LST))
+# environment
+SNAP_VERSION = c3511e6c
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 14)
+TARGET = $(BUILDDIR)/maple_boot
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 75)
+GENDEPFLAGS = -MD -MP -MF .dep/$(@F).d
+# environment
+VTE_VERSION = 6402
+# environment
+SNAP_COMMON = /var/snap/code/common
+# makefile (from 'Makefile', line 70)
+MSG_ASSEMBLING = Assembling:
+# makefile (from 'Makefile', line 21)
+DEBUG = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 65)
+MSG_FLASH = Creating load file for Flash:
+# makefile (from 'Makefile', line 46)
+CC = $(TCHAIN)-gcc
+# makefile (from 'Makefile', line 13)
+ 
+BUILDDIR = build
+# makefile (from 'Makefile', line 49)
+OBJCOPY = $(TCHAIN)-objcopy
+# environment
+SNAP_USER_DATA = /home/diego/snap/code/97
+# environment
+XDG_MENU_PREFIX = gnome-
+# makefile (from 'Makefile', line 76)
+ALL_CFLAGS = -g -mcpu=$(MCU) $(THUMB_IW) -I. $(CFLAGS) $(TARGETFLAGS) $(GENDEPFLAGS)
+# makefile (from 'Makefile', line 64)
+MSG_SIZE_AFTER = Size after:
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = de_DE.UTF-8
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=191/1024=19%, Rehash=0, Collisions=81/400=20%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64769, inode 10752392): 36 files, no impossibilities.
+# .dep (device 64769, inode 12197243): 13 files, no impossibilities.
+
+# 49 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.hex: %.elf
+#  recipe to execute (from 'Makefile', line 504):
+	@echo
+	@echo $(MSG_FLASH) $@
+	$(OBJCOPY) -O binary $< $@
+
+%.bin: %.elf
+#  recipe to execute (from 'Makefile', line 510):
+	@echo
+	@echo $(MSG_FLASH) $@
+	$(OBJCOPY) -O binary $< $@
+
+%.lss: %.elf
+#  recipe to execute (from 'Makefile', line 518):
+	@echo
+	@echo $(MSG_EXTENDED_LISTING) $@
+	$(OBJDUMP) -h -S -D $< > $@
+
+%.sym: %.elf
+#  recipe to execute (from 'Makefile', line 525):
+	@echo
+	@echo $(MSG_SYMBOL_TABLE) $@
+	$(NM) -n $< > $@
+
+%.elf: build/usb.o build/usb_callbacks.o build/usb_descriptor.o build/main.o build/hardware.o build/dfu.o build/usb_lib/usb_regs.o build/usb_lib/usb_int.o build/usb_lib/usb_init.o build/usb_lib/usb_core.o build/usb_lib/usb_mem.o build/stm32_lib/c_only_startup.o build/stm32_lib/cortexm3_macro.o
+#  recipe to execute (from 'Makefile', line 535):
+	@echo
+	@echo $(MSG_LINKING) $@
+	$(CC) $(THUMB) $(ALL_CFLAGS) $(AOBJ) $(COBJ) --output $@ $(LDFLAGS)
+
+# 5 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# makefile (from 'Makefile', line 344)
+build_stbee: TARGETFLAGS = -DTARGET_STBEE $(DEFINES)
+# makefile (from 'Makefile', line 346)
+build_stbee: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_stbee: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_generic-pa1-button-pa8:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 255):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pa1_button_pa8.bin
+	@echo
+
+elf: build/maple_boot.elf
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.dep/main.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:04.946033763
+#  File has been updated.
+#  Successfully updated.
+
+# makefile (from 'Makefile', line 285)
+build_generic-pa9: TARGETFLAGS = -DTARGET_GENERIC_F103_PA9 $(DEFINES)
+# makefile (from 'Makefile', line 287)
+build_generic-pa9: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pa9: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_gd32f1-frankenmaple:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 415):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/gd32f1_frankenmaple.bin
+	@echo
+
+# Not a target:
+build/maple_boot.bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+program_serial:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 487):
+	@echo "Flash-programming with stm32loader.py"
+	./flash/stm32loader.py -p /dev/ttyUSB0 -evw build/maple_boot.bin
+
+# makefile (from 'Makefile', line 432)
+build_generic-pc13-fastboot: TARGETFLAGS = -DTARGET_GENERIC_F103_PC13_FASTBOOT $(DEFINES)
+# makefile (from 'Makefile', line 434)
+build_generic-pc13-fastboot: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pc13-fastboot: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_stbee:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 349):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/stbee_boot20.bin
+	@echo
+
+usb_lib/usb_core.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dfu: build/maple_boot.bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 459):
+	sudo dfu-util -d 0110:1001 -a 0 -D $(TARGET).bin
+
+clean_list:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 554):
+	@echo
+	@echo $(MSG_CLEANING)
+	$(REMOVE) $(TARGET).hex
+	$(REMOVE) $(TARGET).bin
+	$(REMOVE) $(TARGET).obj
+	$(REMOVE) $(TARGET).elf
+	$(REMOVE) $(TARGET).map
+	$(REMOVE) $(TARGET).obj
+	$(REMOVE) $(TARGET).a90
+	$(REMOVE) $(TARGET).sym
+	$(REMOVE) $(TARGET).lnk
+	$(REMOVE) $(TARGET).lss
+	$(REMOVE) $(COBJ)
+	$(REMOVE) $(AOBJ)
+	$(REMOVE) $(LST)
+	$(REMOVE) flash/tmpflash.bin
+	$(REMOVE) .dep/*
+
+usb_descriptor.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+stm32_lib/cortexm3_macro.s:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gd32f1-generic-pc13: begin clean gccversion build_gd32f1-generic-pc13 sizeafter finished copy_gd32f1-generic-pc13 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.dep/usb_descriptor.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:04.894033336
+#  File has been updated.
+#  Successfully updated.
+
+naze32: begin clean gccversion build_naze32 sizeafter finished copy_naze32 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+copy_generic-pb9:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 266):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pb9.bin
+	@echo
+
+copy_generic-pb12:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 371):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pb12.bin
+	@echo
+
+usb.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+usb_callbacks.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+maple-mini: begin clean gccversion build_maple-mini sizeafter finished copy_maple_mini end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sizeafter:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 477):
+	@if [ -f $(TARGET).elf ]; then echo; echo $(MSG_SIZE_AFTER); $(ELFSIZE); echo; fi
+
+usb_lib/usb_init.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 399)
+build_gd32f1-generic-pc13: TARGETFLAGS = -DTARGET_GD32F1_GENERIC_F103_PC13 $(DEFINES)
+# makefile (from 'Makefile', line 401)
+build_gd32f1-generic-pc13: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_gd32f1-generic-pc13: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+usb_lib/usb_int.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+generic-pc13: begin clean gccversion build_generic-pc13 sizeafter finished copy_generic-pc13 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+copy_generic-pe5:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 302):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pe5.bin
+	@echo
+
+# makefile (from 'Makefile', line 261)
+build_generic-pb9: TARGETFLAGS = -DTARGET_GENERIC_F103_PB9 $(DEFINES)
+# makefile (from 'Makefile', line 263)
+build_generic-pb9: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pb9: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_maple-rev5:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 175):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/maple_rev5_boot20.bin
+	@echo
+
+copy_generic-pe2:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 278):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pe2.bin
+	@echo
+
+copy_maple_mini:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 152):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/maple_mini_boot20.bin
+	@echo
+
+.PRECIOUS: build/usb.o build/usb_callbacks.o build/usb_descriptor.o build/main.o build/hardware.o build/dfu.o build/usb_lib/usb_regs.o build/usb_lib/usb_int.o build/usb_lib/usb_init.o build/usb_lib/usb_core.o build/usb_lib/usb_mem.o build/stm32_lib/c_only_startup.o build/stm32_lib/cortexm3_macro.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+generic-none: begin clean gccversion build_generic-none sizeafter finished copy_generic-none end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+generic-pe5: begin clean gccversion build_generic-pe5 sizeafter finished copy_generic-pe5 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+debug: build/maple_boot.bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 491):
+	@echo "Flash-programming with OpenOCD - DEBUG"
+	cp $(TARGET).bin flash/tmpflash.bin
+	cd flash && openocd -f debug.cfg
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:34:40.033549225
+#  File has been updated.
+#  Successfully updated.
+
+stm32_lib/cortexm3_macro.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 297)
+build_generic-pe5: TARGETFLAGS = -DTARGET_GENERIC_F103_PE5 $(DEFINES)
+# makefile (from 'Makefile', line 299)
+build_generic-pe5: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pe5: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+build/usb_callbacks.o: usb_callbacks.c usb_callbacks.c
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'usb_callbacks'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+generic-pb7: begin clean gccversion build_generic-pb7 sizeafter finished copy_generic-pb7 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dso138: begin clean gccversion build_dso138 sizeafter finished copy_dso138 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.dep/usb_int.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:05.566038852
+#  File has been updated.
+#  Successfully updated.
+
+generic-pe2: begin clean gccversion build_generic-pe2 sizeafter finished copy_generic-pe2 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.dep/usb.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:04.806032612
+#  File has been updated.
+#  Successfully updated.
+
+generic-pb9: begin clean gccversion build_generic-pb9 sizeafter finished copy_generic-pb9 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+end:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 474):
+	@echo $(MSG_END)
+	@echo
+
+generic-pa1: begin clean gccversion build_generic-pa1 sizeafter finished copy_generic-pa1 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cscope:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 583):
+	rm -rf *.cscope
+	find . -iname "*.[hcs]" | grep -v examples | xargs cscope -R -b
+
+copy_generic-pb7:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 326):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pb7.bin
+	@echo
+
+# Not a target:
+dfu.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+copy_generic-pa9:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 290):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pa9.bin
+	@echo
+
+# makefile (from 'Makefile', line 421)
+build_cc3d: TARGETFLAGS = -DTARGET_CC3D
+# makefile (from 'Makefile', line 423)
+build_cc3d: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_cc3d: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_smart-v2:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 448):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/smart-v2.bin
+	@echo
+
+# makefile (from 'Makefile', line 250)
+build_generic-pa1-button-pa8: TARGETFLAGS = -DTARGET_GENERIC_F103_PA1_BUTTON_PA8 $(DEFINES)
+# makefile (from 'Makefile', line 252)
+build_generic-pa1-button-pa8: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pa1-button-pa8: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+clean: begin clean_list finished end
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 366)
+build_generic-pb12: TARGETFLAGS = -DTARGET_GENERIC_F103_PB12  $(DEFINES)
+# makefile (from 'Makefile', line 368)
+build_generic-pb12: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pb12: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_naze32:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 360):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/naze32_boot20.bin
+	@echo
+
+# Not a target:
+.dep/usb_mem.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:05.898041576
+#  File has been updated.
+#  Successfully updated.
+
+usb_lib/usb_type.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+usb_lib/usb_mem.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 355)
+build_naze32: TARGETFLAGS = -DTARGET_NAZE32 $(DEFINES)
+# makefile (from 'Makefile', line 357)
+build_naze32: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_naze32: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+generic-pa9: begin clean gccversion build_generic-pa9 sizeafter finished copy_generic-pa9 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+generic-pa1-button-pa8: begin clean gccversion build_generic-pa1-button-pa8 sizeafter finished copy_generic-pa1-button-pa8 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+build/usb_lib/usb_regs.o: usb_lib/usb_regs.c usb_lib/usb_regs.c usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'usb_lib/usb_regs'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+gd32f1-frankenmaple: begin clean gccversion build_gd32f1-frankenmaple sizeafter finished copy_gd32f1-frankenmaple end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+usb_lib/usb_int.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+generic-pb12: begin clean gccversion build_generic-pb12 sizeafter finished copy_generic-pb12 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+stm32_lib/stm32f10x_type.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 388)
+build_dso138: TARGETFLAGS = -DTARGET_DSO138 $(DEFINES)
+# makefile (from 'Makefile', line 390)
+build_dso138: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_dso138: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+hardware.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+usb_lib/usb_regs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 216)
+build_generic-pd2: TARGETFLAGS = -DTARGET_GENERIC_F103_PD2 $(DEFINES)
+# makefile (from 'Makefile', line 218)
+build_generic-pd2: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pd2: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+smart-v2: begin clean gccversion build_smart-v2 sizeafter finished copy_smart-v2 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/usb_lib/usb_mem.o: usb_lib/usb_mem.c usb_lib/usb_mem.c usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'usb_lib/usb_mem'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+copy_dso138:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 393):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/dso138_boot20.bin
+	@echo
+
+build/usb_lib/usb_init.o: usb_lib/usb_init.c usb_lib/usb_init.c usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'usb_lib/usb_init'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+# Not a target:
+usb_lib/usb_core.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dfu.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 443)
+build_smart-v2: TARGETFLAGS = -DTARGET_STM32_SMART_V20 $(DEFINES)
+# makefile (from 'Makefile', line 445)
+build_smart-v2: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_smart-v2: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+stm32_lib/c_only_startup.s:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+hardware.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/hardware.o: hardware.c hardware.c common.h config.h hardware.h stm32_lib/stm32f10x_type.h stm32_lib/cortexm3_macro.h stm32_lib/stm32f10x_type.h usb.h usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h usb_descriptor.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'hardware'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+usb_lib/usb_def.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+usb_lib/usb_mem.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+generic-pg15: begin clean gccversion build_generic-pg15 sizeafter finished copy_generic-pg15 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+copy_hytiny-stm32f103t:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 382):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_hytiny.bin
+	@echo
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/maple_boot.lss:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.dep/usb_regs.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:05.470038064
+#  File has been updated.
+#  Successfully updated.
+
+# makefile (from 'Makefile', line 410)
+build_gd32f1-frankenmaple: TARGETFLAGS = -DTARGET_GD32F1_FRANKENMAPLE $(DEFINES)
+# makefile (from 'Makefile', line 412)
+build_gd32f1-frankenmaple: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_gd32f1-frankenmaple: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+build/usb_lib/usb_core.o: usb_lib/usb_core.c usb_lib/usb_core.c usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'usb_lib/usb_core'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+all: begin gccversion build sizeafter finished end
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/13=0%
+
+run: build/maple_boot.bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 500):
+	openocd -f flash/run.cfg
+
+build/stm32_lib/c_only_startup.o: stm32_lib/c_only_startup.s
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'stm32_lib/c_only_startup'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 547):
+	@echo
+	@echo $(MSG_ASSEMBLING) $<
+	$(CC) -c $(THUMB) $(ALL_ASFLAGS) $< -o $@
+
+copy_generic-none:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 186):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic-none_bootloader.bin
+	@echo
+
+lss: build/maple_boot.lss
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+finish:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+usb_lib/usb_init.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build: elf bin lss sym
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+copy_generic-pc13:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 198):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pc13.bin
+	@echo
+
+# Not a target:
+.dep/usb_core.o.d:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-10 15:58:05.814040886
+#  File has been updated.
+#  Successfully updated.
+
+gccversion:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 479):
+	@$(CC) --version
+
+maple-rev5: begin clean gccversion build_maple-rev5 sizeafter finished copy_maple-rev5 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 239)
+build_generic-pa1: TARGETFLAGS = -DTARGET_GENERIC_F103_PA1 $(DEFINES)
+# makefile (from 'Makefile', line 241)
+build_generic-pa1: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pa1: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_generic-pb0:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 337):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pb0.bin
+	@echo
+
+copy_gd32f1-generic-pc13:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 404):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/gd32f1_generic_boot20_pc13.bin
+	@echo
+
+# Not a target:
+.dep/usb_init.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:05.60603918
+#  File has been updated.
+#  Successfully updated.
+
+copy_generic-pd1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 233):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pd1.bin
+	@echo
+
+# makefile (from 'Makefile', line 377)
+build_hytiny-stm32f103t: TARGETFLAGS = -DTARGET_HYTINY_STM32F103T $(DEFINES)
+# makefile (from 'Makefile', line 379)
+build_hytiny-stm32f103t: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_hytiny-stm32f103t: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+# makefile (from 'Makefile', line 146)
+build_maple-mini: TARGETFLAGS = -DTARGET_MAPLE_MINI $(DEFINES)
+# makefile (from 'Makefile', line 148)
+build_maple-mini: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_maple-mini: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+# makefile (from 'Makefile', line 321)
+build_generic-pb7: TARGETFLAGS = -DTARGET_GENERIC_F103_PB7 $(DEFINES)
+# makefile (from 'Makefile', line 323)
+build_generic-pb7: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pb7: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_generic-pa1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 244):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pa1.bin
+	@echo
+
+usb_lib/usb_lib.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+generic-pb0: begin clean gccversion build_generic-pb0 sizeafter finished copy_generic-pb0 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/usb_descriptor.o: usb_descriptor.c usb_descriptor.c usb_descriptor.h common.h config.h hardware.h stm32_lib/stm32f10x_type.h stm32_lib/cortexm3_macro.h stm32_lib/stm32f10x_type.h usb.h usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'usb_descriptor'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+bin: build/maple_boot.bin
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+config.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 204)
+build_generic-pg15: TARGETFLAGS = -DTARGET_GENERIC_F103_PG15 $(DEFINES)
+# makefile (from 'Makefile', line 206)
+build_generic-pg15: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pg15: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_generic-pd2:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 221):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pd2.bin
+	@echo
+
+ 
+# makefile (from 'Makefile', line 193)
+build_generic-pc13: TARGETFLAGS = -DTARGET_GENERIC_F103_PC13 $(DEFINES)
+# makefile (from 'Makefile', line 195)
+build_generic-pc13: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pc13: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+generic-pe5-button-pa0: begin clean gccversion build_generic-pe5-button-pa0 sizeafter finished copy_generic-pe5-button-pa0 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+usb_descriptor.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/usb_lib/usb_int.o: usb_lib/usb_int.c usb_lib/usb_int.c usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'usb_lib/usb_int'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+generic-pc13-fastboot: begin clean gccversion build_generic-pc13-fastboot sizeafter finished copy_generic-pc13-fastboot end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+maple-rev3: begin clean gccversion build_maple-rev3 sizeafter finished copy_maple-rev3 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+install: build/maple_boot.bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 496):
+	cp $(TARGET).bin build/main.bin
+	openocd -f flash/perry_flash.cfg
+
+copy_generic-pc13-fastboot:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 437):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pc13_fastboot.bin
+	@echo
+
+sym: build/maple_boot.sym
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 309)
+build_generic-pe5-button-pa0: TARGETFLAGS = -DTARGET_GENERIC_F103_PE5_BUTTON_PA0 $(DEFINES)
+# makefile (from 'Makefile', line 311)
+build_generic-pe5-button-pa0: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pe5-button-pa0: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+build/maple_boot.sym:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cc3d: begin clean gccversion build_cc3d sizeafter finished copy_cc3d end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+generic-pd1: begin clean gccversion build_generic-pd1 sizeafter finished copy_generic-pd1 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SECONDARY: build/maple_boot.elf
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.dep/hardware.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:05.078034848
+#  File has been updated.
+#  Successfully updated.
+
+copy_generic-pe5-button-pa0:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 314):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pe5_button_pa0.bin
+	@echo
+
+stbee: begin clean gccversion build_stbee sizeafter finished copy_stbee end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+hytiny-stm32f103t: begin clean gccversion build_hytiny-stm32f103t sizeafter finished copy_hytiny-stm32f103t end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+copy_maple-rev3:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 164):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/maple_rev3_boot20.bin
+	@echo
+
+# makefile (from 'Makefile', line 181)
+build_generic-none: TARGETFLAGS = -DTARGET_GENERIC_F103_NONE $(DEFINES)
+# makefile (from 'Makefile', line 183)
+build_generic-none: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-none: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+build/dfu.o: dfu.c dfu.c hardware.h stm32_lib/stm32f10x_type.h stm32_lib/cortexm3_macro.h stm32_lib/stm32f10x_type.h common.h config.h usb.h usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h usb_descriptor.h dfu.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'dfu'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+# makefile (from 'Makefile', line 228)
+build_generic-pd1: TARGETFLAGS = -DTARGET_GENERIC_F103_PD1 $(DEFINES)
+# makefile (from 'Makefile', line 230)
+build_generic-pd1: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pd1: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+build/stm32_lib/cortexm3_macro.o: stm32_lib/cortexm3_macro.s
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'stm32_lib/cortexm3_macro'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 547):
+	@echo
+	@echo $(MSG_ASSEMBLING) $<
+	$(CC) -c $(THUMB) $(ALL_ASFLAGS) $< -o $@
+
+# Not a target:
+build/maple_boot.elf:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+generic-pd2: begin clean gccversion build_generic-pd2 sizeafter finished copy_generic-pd2 end
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+copy_generic-pg15:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 209):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pg15.bin
+	@echo
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 332)
+build_generic-pb0: TARGETFLAGS = -DTARGET_GENERIC_F103_PB0 $(DEFINES)
+# makefile (from 'Makefile', line 334)
+build_generic-pb0: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pb0: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+build/main.o: main.c main.c common.h config.h hardware.h stm32_lib/stm32f10x_type.h stm32_lib/cortexm3_macro.h stm32_lib/stm32f10x_type.h usb.h usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h usb_descriptor.h dfu.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'main'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+.PHONY: all begin finish tags end sizeafter gccversion build elf hex bin lss sym clean clean_list program cscope
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 158)
+build_maple-rev3: TARGETFLAGS = -DTARGET_MAPLE_REV3 $(DEFINES)
+# makefile (from 'Makefile', line 160)
+build_maple-rev3: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_maple-rev3: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+copy_cc3d:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 426):
+	@echo
+	@echo "Copying to binaries folder"
+	@echo
+	cp $(TARGET).bin bootloader_only_binaries/cc3d.bin
+	@echo
+
+begin:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := begin
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=7/21=33%
+#  recipe to execute (from 'Makefile', line 462):
+	mkdir -p build/stm32_lib
+ 
+	mkdir -p build/usb_lib
+	@echo --
+	@echo $(MSG_BEGIN)
+	@echo $(COBJ)
+
+# Not a target:
+usb_lib/usb_regs.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 273)
+build_generic-pe2: TARGETFLAGS = -DTARGET_GENERIC_F103_PE2 $(DEFINES)
+# makefile (from 'Makefile', line 275)
+build_generic-pe2: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_generic-pe2: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+build/usb.o: usb.c usb.c usb.h common.h config.h hardware.h stm32_lib/stm32f10x_type.h stm32_lib/cortexm3_macro.h stm32_lib/stm32f10x_type.h usb_lib/usb_lib.h usb_lib/usb_type.h usb_lib/usb_regs.h usb_lib/usb_def.h usb_lib/usb_core.h usb_lib/usb_init.h usb_lib/usb_mem.h usb_lib/usb_int.h usb_descriptor.h dfu.h
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'usb'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 541):
+	@echo
+	@echo $(MSG_COMPILING) $<
+	$(CC) -c $(THUMB) $(ALL_CFLAGS) $< -o $@
+
+# Not a target:
+.dep/usb_callbacks.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:04.862033073
+#  File has been updated.
+#  Successfully updated.
+
+finished:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 469):
+	@echo $(MSG_ERRORS_NONE)
+
+common.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tags:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 471):
+	etags `find . -name "*.c" -o -name "*.cpp" -o -name "*.h"`
+	@echo $(MSG_ETAGS)
+
+# Not a target:
+usb.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+hex:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.dep/dfu.o.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 15:58:05.218035996
+#  File has been updated.
+#  Successfully updated.
+
+program:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 482):
+	@echo "Flash-programming with OpenOCD"
+	cp $(TARGET).bin flash/tmpflash.bin
+	cd flash && openocd -f flash.cfg
+
+# makefile (from 'Makefile', line 170)
+build_maple-rev5: TARGETFLAGS = -DTARGET_MAPLE_REV5 $(DEFINES)
+# makefile (from 'Makefile', line 172)
+build_maple-rev5: LDFLAGS += -T$(ST_LIB)/c_only_md_high_density.ld
+build_maple-rev5: elf bin lss sym
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=0/4=0%
+
+# files hash-table stats:
+# Load=167/1024=16%, Rehash=0, Collisions=33/982=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 222 / storage = 3261 B / avg = 14 B
+# current buf: size = 8162 B / used = 3261 B / count = 222 / avg = 14 B
+
+# strcache performance: lookups = 1203 / hit rate = 81%
+# hash-table stats:
+# Load=222/8192=3%, Rehash=0, Collisions=6/1203=0%
+# Finished Make data base on Fri Jun 10 16:10:37 2022
+
+ 
